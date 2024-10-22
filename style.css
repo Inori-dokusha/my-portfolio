@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+	
+/* Reset */	
+a{
+	text-decoration: none;
+}
+
+:root {
+	--black: #1f1f1f;
+	--darkgray: #c4c4c4;
+	--lightgray: #f2f2f2;
+	--white: #ffffff;
+}
+
+* {
+	font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* NAVBAR */
+nav {
+	display: grid;
+	grid-template-columns: 15% 1fr 30%;
+	place-items: center;
+	padding: 0.54rem 1.2rem;
+}
+
+nav a {
+	color: var(--black);
+}
+
+nav .menu,
+nav .menu-add {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav .menu-add a {
+	border: 1px solid var(--black);
+	border-radius: 7px;
+	padding: 7px;
+	transition: 300ms;
+}
+
+nav .menu-add a:hover {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+/* Main page */
+section#home {
+	min-height: 100vh;
+	display: grid;
+	place-content: center;
+	place-items: center;
+}
+
+section#home h1 {
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+
+section#home h3 {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+section#home p {
+	margin-top: 30px;
+	font-size: 8px;
+	color: var(--darkgray);
+}
+
+section#home span {
+	animation: upDown 1s alternate infinite;
+	font-weight: bolder;
+	color: var(--black);
+}
+
+@keyframes upDown {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(20px)
+	}
+}
+
+/* About page */
+section#about {
+	
+}
