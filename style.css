@@ -69,7 +69,7 @@ section#home h3 {
 
 section#home p {
 	margin-top: 30px;
-	font-size: 8px;
+	font-size: 12px;
 	color: var(--darkgray);
 }
 
@@ -90,5 +90,13 @@ section#home span {
 
 /* About page */
 section#about {
-	
+	background-color: vad(--lightgray);
+}
+
+section#about h2 {
+	text-align: center;
+}
+
+section#about .information {
+	display: ;
 }
