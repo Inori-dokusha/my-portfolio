@@ -4,14 +4,11 @@
   --color-btn-min: #ffbd44;
   --color-btn-max: #00ca4e;
 
-  /* For text colors */
-  --tc-gray: #808080;
-  --tc-white: #f0f0f0;
-  --tc-black: #88888;
-
   /* For elemen colors */
-  --bg-color-1: rgba(240, 240, 240, 1);
-  --bg-color-2: rgb(161, 161, 161);
+  --white: #f0f0f0;
+  --lightgray: #eeeeee;
+  --red: #cb0000;
+  --black: #000000;
 }
 
 /* For main section */
@@ -62,6 +59,4 @@
   border-radius: 30px;
 }
 
-.header .directory p {
-  color: var(--tc-gray);
-}
+.header .directory p lightgray  #eeeeee;v
