@@ -10,23 +10,23 @@
   ];
 
   # Sets environment variables in the workspace
-  env = {};
+  env = { };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
-    extensions = [  
-    "PKief.material-icon-theme"
-    "adpyke.codesnap"
-    "christian-kohler.path-intellisense"
-    "CoenraadS.bracket-pair-colorizer"
-    "CoenraadS.bracket-pair-colorizer-2"
-    "dbaeumer.vscode-eslint"
-    "esbenp.prettier-vscode"
-    "formulahendry.auto-close-tag"
-    "formulahendry.auto-complete-tag"
-    "formulahendry.auto-rename-tag"
-    "ritwickdey.LiveServer"
-    "shd101wyy.markdown-preview-enhanced"
-    "usernamehw.errorlens"
+    extensions = [
+      "PKief.material-icon-theme"
+      "adpyke.codesnap"
+      "christian-kohler.path-intellisense"
+      "CoenraadS.bracket-pair-colorizer"
+      "CoenraadS.bracket-pair-colorizer-2"
+      "dbaeumer.vscode-eslint"
+      "esbenp.prettier-vscode"
+      "formulahendry.auto-close-tag"
+      "formulahendry.auto-complete-tag"
+      "formulahendry.auto-rename-tag"
+      "ritwickdey.LiveServer"
+      "shd101wyy.markdown-preview-enhanced"
+      "usernamehw.errorlens"
     ];
 
     # Enable previews
