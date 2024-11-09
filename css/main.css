@@ -54,9 +54,7 @@
 /* For directory */
 .header .directory {
   width: 600px;
-  background-color: var(--bg-color-1);
+  background-color: var(--lightgray);
   text-align: center;
   border-radius: 30px;
 }
-
-.header .directory p lightgray  #eeeeee;v
