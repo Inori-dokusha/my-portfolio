@@ -11,7 +11,7 @@
 
   /* For elemen colors */
   --bg-color-1: rgba(240, 240, 240, 1);
-  --bg-color-2: rgb(161,161,161)
+  --bg-color-2: rgb(161, 161, 161);
 }
 
 /* For main section */
@@ -56,12 +56,12 @@
 
 /* For directory */
 .header .directory {
-    width: 600px;
-    background-color: var(--bg-color-1);
-    text-align: center;
-    border-radius: 30px;
+  width: 600px;
+  background-color: var(--bg-color-1);
+  text-align: center;
+  border-radius: 30px;
 }
 
 .header .directory p {
-    color: var(--tc-gray);
+  color: var(--tc-gray);
 }
