@@ -3,28 +3,34 @@
   --color-btn-close: #ff605c;
   --color-btn-min: #ffbd44;
   --color-btn-max: #00ca4e;
-  /* For global elemen */
+  
+  /* For text colors */
+  --tc-gray: #808080;
+  --tc-white: #f0f0f0;
+  --tc-black: #88888;
+  
+  /* For elemen colors */
   --bg-color-header: rgba(240, 240, 240, 1);
 }
 
 /* For main section */
 .main {
-    min-height: 100vh;
-    min-width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 /* For header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 /* For button group */
 .header .button-nav {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 /* For button in header too left */
