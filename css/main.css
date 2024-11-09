@@ -4,5 +4,25 @@
   --color-btn-min: #ffbd44;
   --color-btn-max: #00ca4e;
   /* For global elemen */
+  --bg-color-header: rgba(240,240,240,1);
+}
 
+/* For button in header too left */
+.header .button-nav .close {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: var(--color-btn-close);
+}
+.header .button-nav .min {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: var(--color-btn-min);
+}
+.header .button-nav .max {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: var(--color-btn-max);
 }
