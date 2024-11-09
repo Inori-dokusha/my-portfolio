@@ -4,25 +4,45 @@
   --color-btn-min: #ffbd44;
   --color-btn-max: #00ca4e;
   /* For global elemen */
-  --bg-color-header: rgba(240,240,240,1);
+  --bg-color-header: rgba(240, 240, 240, 1);
+}
+
+/* For main section */
+.main {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+/* For header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* For button group */
+.header .button-nav {
+    display: flex;
+    gap: 10px;
 }
 
 /* For button in header too left */
 .header .button-nav .close {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    background-color: var(--color-btn-close);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: var(--color-btn-close);
 }
 .header .button-nav .min {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    background-color: var(--color-btn-min);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: var(--color-btn-min);
 }
 .header .button-nav .max {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    background-color: var(--color-btn-max);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: var(--color-btn-max);
 }
