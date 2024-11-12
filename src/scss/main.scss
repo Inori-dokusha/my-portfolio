@@ -1,3 +1,8 @@
 @use 'partials/reset' as *;
 @use 'partials/variables' as v;
-@use 'components/window' as w;
+@use 'partials/function' as f;
+@use 'components/main-section' as ms;
+// @use 'components/about' as a;
+// @use 'components/project' as p;
+// @use 'components/skills' as s;
+// @use 'components/contact' as c;
