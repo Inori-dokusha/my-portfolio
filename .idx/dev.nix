@@ -17,7 +17,6 @@
       "PKief.material-icon-theme"
       "adpyke.codesnap"
       "christian-kohler.path-intellisense"
-      "CoenraadS.bracket-pair-colorizer"
       "CoenraadS.bracket-pair-colorizer-2"
       "dbaeumer.vscode-eslint"
       "esbenp.prettier-vscode"
@@ -52,6 +51,7 @@
       onCreate = {
         # Example: install JS dependencies from NPM
         install-eslint = "npm install -g eslint";
+        install-sass = "npm install sass --save-dev";
       };
     };
   };
