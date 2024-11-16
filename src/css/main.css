@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 html {
-  line-height: 1.15;
+  line-height: 0.9;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -180,6 +180,8 @@ template {
 
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -187,6 +189,10 @@ template {
   min-height: 100vh;
   background-color: #cb0000;
   color: #1a1a1a;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 .main .window {
   background-color: #f6f6f6;
@@ -225,6 +231,92 @@ template {
 .main .window .author {
   font-size: 0.75rem;
   color: #999999;
+}
+.main .welcome h1,
+.main .welcome p {
+  color: white;
+  margin: 0;
+}
+.main .welcome h1 {
+  font-size: 3.75rem;
+  font-weight: 400;
+}
+.main .welcome p {
+  font-size: 1.125rem;
+}
+.main .welcome .social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.main .welcome .social-links .link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  justify-content: center;
+}
+.main .welcome .social-links .link:hover {
+  color: #2c2c2c;
+  transform: translateY(-2px);
+  background-color: #ffffff;
+}
+.main .welcome .social-links .social-icon {
+  width: 32px;
+  height: 32px;
+}
+.main .img {
+  width: 550px;
+  height: 100vh;
+  background-image: url("../images/profile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper-nav {
+  position: absolute;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  bottom: -60px;
+  left: -60px;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+}
+.wrapper-nav .button-nav {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-nav .button-nav .line {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.wrapper-nav .list-menu {
+  position: relative;
+  display: none;
+}
+.wrapper-nav .list-menu a {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
