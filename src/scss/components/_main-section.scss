@@ -1,0 +1,57 @@
+// call partials
+@use '../partials/variables' as v;
+@use '../partials/function' as f;
+
+// main section
+.main {
+  display: flex;
+  min-height: 100vh;
+  background-color: v.$bg-color-main;
+  color: v.$text-color-primer;
+
+  // header windiw
+  .window {
+    background-color: v.$bg-color-header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    // button window
+    .buttons {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .close,
+    .min,
+    .max {
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+
+    .min {
+      background-color: v.$color-btn-min;
+    }
+    .max {
+      background-color: v.$color-btn-max;
+    }
+    .close {
+      background-color: v.$color-btn-close;
+    }
+
+    // directory
+    .directory,
+    .author {
+      font-size: f.rem(12px);
+      color: v.$color-header-text;
+    }
+  }
+}

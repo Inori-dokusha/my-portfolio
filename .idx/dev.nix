@@ -26,6 +26,7 @@
       "ritwickdey.LiveServer"
       "shd101wyy.markdown-preview-enhanced"
       "usernamehw.errorlens"
+      "pranaygp.vscode-css-peek"
     ];
 
     # Enable previews
@@ -50,7 +51,7 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        install-eslint = "npm install -g eslint";
+        install-eslint = "npm install eslint --save-dev";
         install-sass = "npm install sass --save-dev";
       };
     };
