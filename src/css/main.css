@@ -303,6 +303,10 @@ template {
   align-items: center;
   gap: 0.4rem;
   cursor: pointer;
+  transition: all 150ms;
+}
+.wrapper-nav .button-nav.rotate {
+  transform: rotate(90deg);
 }
 .wrapper-nav .button-nav .line {
   width: 30px;
@@ -311,14 +315,10 @@ template {
   margin-bottom: 5px;
   border-radius: 5px;
   margin: 0;
-  transition: all 250ms;
-}
-.wrapper-nav .button-nav .line.rotate {
-  transform: rotate(90deg);
 }
 .wrapper-nav .list-menu {
   position: relative;
-  display: none;
+  display: block;
 }
 .wrapper-nav .list-menu a {
   position: absolute;
