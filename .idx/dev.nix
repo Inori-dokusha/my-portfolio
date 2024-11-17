@@ -27,6 +27,7 @@
       "shd101wyy.markdown-preview-enhanced"
       "usernamehw.errorlens"
       "pranaygp.vscode-css-peek"
+      "monokai.theme-monokai-pro-vscode"
     ];
 
     # Enable previews
@@ -45,12 +46,8 @@
         # };
       };
     };
-
-    # Workspace lifecycle hooks
     workspace = {
-      # Runs when a workspace is first created
       onCreate = {
-        # Example: install JS dependencies from NPM
         install-eslint = "npm install eslint --save-dev";
         install-sass = "npm install sass --save-dev";
       };
