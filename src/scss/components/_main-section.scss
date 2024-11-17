@@ -8,6 +8,10 @@
   min-height: 100vh;
   background-color: v.$bg-color-main;
   color: v.$text-color-primer;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 
   // header windiw
   .window {
@@ -47,11 +51,124 @@
       background-color: v.$color-btn-close;
     }
 
-    // directory
+    // directory and author
     .directory,
     .author {
       font-size: f.rem(12px);
       color: v.$color-header-text;
+    }
+  }
+
+  // welcome
+  .welcome {
+    h1,
+    p {
+      color: lighten(v.$text-color-primer, 100%);
+      margin: 0;
+    }
+    h1 {
+      font-size: f.rem(60px);
+      font-weight: 400;
+    }
+    p {
+      font-size: f.rem(18px);
+    }
+
+    // social links
+    .social-links {
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+
+      .link {
+        color: v.$socmed-color;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: f.rem(14px);
+        transition: all 0.2s;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        justify-content: center;
+      }
+
+      .link:hover {
+        color: v.$socmed-hover-color;
+        transform: translateY(-2px);
+        background-color: v.$socmed-color;
+      }
+
+      .social-icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  // profile
+  .img {
+    width: 550px;
+    height: 100vh;
+    background-image: url('../images/profile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+// button menu nav
+.wrapper-nav {
+  position: absolute;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  bottom: -60px;
+  left: -60px;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+
+  // create button
+  .button-nav {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    transition: all 150ms;
+
+    &.rotate {
+      transform: rotate(90deg);
+    }
+    // line
+    .line {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      margin: 0;
+    }
+  }
+
+  // wrapper list
+  .list-menu {
+    position: relative;
+    display: block;
+
+    // list menu
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
     }
   }
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 html {
-  line-height: 1.15;
+  line-height: 0.9;
   -webkit-text-size-adjust: 100%;
 }
 body {
@@ -148,4 +148,6 @@ template {
 
 * {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
