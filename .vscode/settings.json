@@ -1,0 +1,14 @@
+{
+  // editor
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  // Workbench
+  "workbench.colorTheme": "Code OSS Light",
+  // Prettier
+  "prettier.enable": true,
+  "IDX.aI.enableInlineCompletion": true,
+  "IDX.aI.enableCodebaseIndexing": true
+}
