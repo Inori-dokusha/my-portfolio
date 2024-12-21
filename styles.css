@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: lightgray;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.main {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 30px;
+  min-width: 600px;
+  width: 800px;
+  height: 500px;
+  min-height: 300px;
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.main-content {
+  background-image: url(/images/bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.top::before {
+  content: "";
+  position: absolute;
+  width: 175px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  background: rgba(230, 230, 230, 1);
+}
+
+.top .logo,
+.top .contact {
+  background-color: rgba(230, 230, 230, 1);
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.top .contact {
+  width: 150px;
+}
+
+.top .contact::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 160px;
+  border-radius: 0 20px 0 0;
+  background-color: red;
+}
